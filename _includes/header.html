@@ -11,7 +11,7 @@
           {% assign one_day = 86400 %}
           {% assign workshop_len = 345600 %}
           {% assign startdate = site.data[page.year].dates.startdate %}
-          {{startdate |  date: "%A, %B %-d"}}-{{startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
+          {{startdate |  date: "%A, %B %-d"}} through {{startdate | date: "%s" | plus: workshop_len |  date: "%A, %B %-d, %Y"}}</h3><br>
       </td>
       <td class="logo">
           <a href="https://www.rice.edu"><img class="logo" alt="Rice logo" src="assets/images/ricelogo.jpg"></a>
