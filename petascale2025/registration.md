@@ -2,7 +2,7 @@
 layout: info
 title: Registration
 ---
-Scalable Tools Workshop 2024 will be held at the
+Scalable Tools Workshop 2025 will be held at the
 beautiful <a href="https://www.granlibakken.com">Granlibakken Resort</a> in Lake Tahoe,
 California.
 
