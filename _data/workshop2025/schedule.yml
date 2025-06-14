@@ -16,13 +16,9 @@ sessions:
     time: 12:00pm
     days:
       - monday
+      - tuesday
       - wednesday
       - thursday
-    class: sbreak
-  - title: "Lunch"
-    time: 12:30pm
-    days:
-      - tuesday
     class: sbreak
   - title: "Reception (Mountain Deck)"
     time: 17:30pm
@@ -76,10 +72,6 @@ sessions:
     time: 15:00pm
     days:
       - monday
-    class: sbreak
-  - title: Break
-    time: 14:30pm
-    days:
       - tuesday
     class: sbreak
 
@@ -203,35 +195,12 @@ sessions:
        slides: 
        abstract: 
 
-  - title: Talks Session 6
-    days: tuesday
-    time: 10:30am
-    talks:
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-     - title: 
-       author: 
-       affiliation: 
-       length: 1800
-       slides: 
-       abstract: 
-
   - days: tuesday
-    time: 13:30pm
+    time: 10:30pm
     title: Working Groups Creation
 
   - days: tuesday
-    time: 15:00pm
+    time: 13:30pm
     title: Working Groups Session 1
     talks:
      - title: 
@@ -248,7 +217,7 @@ sessions:
        slides: 
  
   - days: tuesday
-    time: 16:00pm
+    time: 15:30pm
     title: Working Groups Session 2
     talks:
      - title: 
