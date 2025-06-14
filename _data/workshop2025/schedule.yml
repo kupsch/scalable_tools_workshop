@@ -84,116 +84,354 @@ sessions:
     days: monday
     time: 08:35am
     talks:
-      - title: 
-        author: 
-        affiliation: 
+      - title: What's New in Dyninst
+        author: Dyninst Team — James Kupsch, Ronak Chauham, Hsuan-Heng Wu, Angus He
+        affiliation: University of Wisconsin-Madison
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          Binary analysis and instrumentation is a key technology to support
+          performance profiling, debugging, testing, software security, and auditing.
+          Dyninst is an open source suite of libraries providing binary analysis,
+          instrumentation and control capabilities across several hardware
+          architectures with an architecture-independent abstraction. It supports
+          both dynamic (runtime) and static (binary rewriting) instrumentation of a
+          binary program. Dyninst is opportunistic in that it uses symbol and debug
+          information when it is available, but can operate without it, even on
+          stripped binaries. Dyninst's analysis capabilities produce a control- and
+          data-flow analysis of the program, identifying functions, loops, and basic
+          blocks in the code. Dyninst allows fine-grained program instrumentation and
+          modification based on a high-level (control flow graph) abstraction of a
+          program.
+          <p>
+          Dyninst is structured as a suite of toolkit libraries, providing
+          architecture independent interfaces to features such as instruction
+          decoding, control flow analysis, data flow analysis, code generation, code
+          patching (splicing) and symbol table processing. On the dynamic side, it
+          also includes process control and stack walking support.
+          <p>
+          Dyninst has been used as the foundation for products from companies like
+          AMD, Cray, and Red Hat, as the basis for tools from national labs and
+          research groups, and as a key component in hundreds of academic research
+          projects. It continues to have the dual role of providing a foundation for
+          new instrumentation and analysis research combined with support for key
+          applications of binary analysis and instrumentation.
+          <p>
+          Since the last workshop, Dyninst has seen myriad improvements to
+          functionality and code quality. Examples include basic binary rewriting now
+          working for AMD GPUs and for the RISC-V processor. As always, there updates
+          to testing and     a wealth of correctness, performance, and usability
+          enhancements discovered via user feedback, bug reports, and our testing process.
+          <p>
+          We  will review the features and structure of Dyninst, summarize the new
+          developments, and present some practical examples of how you can use it.
+      - title: The US/DOE’s Software Tools Ecosystem Project
+        author: Terry Jones
+        affiliation: Oak Ridge National Lab
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          The US DOE has recently funded a new project that considers this
+          interesting question: as new machines become available, how can
+          software teams ensure that they are achieving efficient use of their
+          machine allocations? The project, which is called Software Tools Ecosystem
+          Project, or STEP, is focused on the collection of software tools and
+          utilities that can be applied to both understanding performance bottlenecks
+          and facilitating run time mitigation of performance degrading phenomena.
+          STEP seeks to ensure the health of these key tools and the community that
+          provides them against the backdrop of a rapidly evolving HPC landscape. In
+          this talk, I’ll give an update on our efforts to provide effective
+          performance tools, including our goals and our challenges.
+      - title: "SIMON: A Simple Monitoring Framework for Heterogeneous Application Observability"
+        author: Allen Malony
+        affiliation: University of Oregon
         length: 1800
         slides: 
-        abstract: 
+        abstract: |
+          Sophisticated observability solutions have been developed in cloud
+          computing environments to address the complexity of scaled-out
+          distributed systems and understand the factors affecting application
+          execution and performance in otherwise opaque cloud operations. In
+          contrast, observability in high-performance computing has focused more
+          on detailed measurements of application execution on processors (CPUs,
+          GPUs), memory, interconnection networks, and I/O for purposes of
+          performance optimization. With increasing heterogeneity in HPC
+          hardware, software, and application types, monitoring to observe
+          application measurements at runtime and enable telemetry for in situ
+          processing is gaining in importance to inform adaptive execution and
+          resource management. We present a simple monitoring framework for
+          heterogeneous HPC application observability called SIMON. By "simple" we
+          mean that SIMON should offer functionality that is easy to use, works
+          out-of-the-box with heterogeneous applications and systems, is
+          programmable and extensible, and is configurable to meet a range of
+          observability requirements. A SIMON prototype is presented and examples
+          shown for different heterogeneous monitoring scenarios that demonstrate
+          its capabilities.
 
   - title: Talks Session 2
     days: monday
     time: 10:30am
     talks:
-      - title: 
-        author: 
-        affiliation: 
+      - title: ROCm Performance Analysis SDK and Tooling Ecosystem
+        author: Jonathan Madsen
+        affiliation: AMD
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          Understanding and optimizing the performance of applications on AMD GPUs is
+          critical for achieving peak efficiency in high-performance computing and AI
+          workloads. This talk introduces the AMD ROCm Performance Analysis SDK, a
+          powerful suite of APIs and tools designed to enable detailed profiling,
+          annotation, and performance analysis of applications running on the ROCm
+          platform.
+          <p>
+          We will begin with an overview of the rocprofiler-sdk, which provides a
+          flexible API for building custom profiling tools and integrating
+          performance data collection into existing workflows. We will then explore
+          the ROCTX API, which allows developers to annotate applications, control
+          profiling sessions programmatically, and define regions of interest for
+          targeted analysis. The session will also cover the core data collection
+          tools: rocprofv3 for command-line profiling, rocprofiler-systems for
+          system-level metrics collection, and rocprofiler-compute for fine-grained
+          kernel and GPU event profiling. Finally, we will introduce rocpd, the data
+          analysis and post-processing component of rocprofiler-sdk, which enables
+          rich insights into collected profiling data.
+      - title: Enhancements to HPCToolkit for Analysis of CPU and GPU-accelerated Applications
+        author: Laksono Adhianto and John Mellor-Crummey
+        affiliation: Rice University
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          Over the last year, we have made significant changes to HPCToolkit to
+          better support measurement, analysis and presentation of performance data
+          for parallel CPU and GPU-accelerated applications. The talk will begin with
+          a description of our experiences using hardware counters to implement
+          top-down performance analysis on CPUs. Next, we will describe the
+          challenges, our experiences, and outstanding issues in updating performance
+          measurement and analysis capabilities for AMD, Intel, and NVIDIA GPUs.
+          Third, we will demonstrate updates to HPCToolkit’s user interface that
+          support efficient remote access to performance data using a client-server
+          architecture. The talk will conclude with a discussion of outstanding
+          issues and ongoing research that aims to advance performance analysis of
+          HPC workloads.
+      - title: Understanding GPU Kernels with Instrumentation
+        author: Yumeng Liu
+        affiliation: Rice University
         length: 1800
         slides: 
-        abstract: 
+        abstract: |
+          In this talk, we present a work-in-progress exploration of how GPU
+          in-kernel instrumentation can help improve observability and expose
+          optimization opportunities. We will describe an instrumentation tool built
+          with NVBit, share findings from analyzing Quicksilver and some
+          microbenchmarks, and discuss potential optimization opportunities.
 
   - title: Talks Session 3
     days: monday
     time: 13:30pm
     talks:
-      - title: 
-        author: 
-        affiliation: 
+      - title: Denoising Application Performance Models with Noise-Resilient Priors
+        author: Gustavo Morais
+        affiliation: TU Darmstadt
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          When scaling parallel codes to larger machines, performance models help
+          identify potential bottlenecks. Since analytically designing these
+          mathematical representations is usually challenging, empirical models based
+          on performance measurements offer a practical alternative. Yet,
+          measurements on HPC systems are typically affected by noise, leading to
+          potentially misleading model predictions. To reduce the influence of noise,
+          we introduce application-specific dynamic priors into the modeling process,
+          which we derive from noise-resilient measurements of computational effort
+          and knowledge of typical algorithms used in communication routines. These
+          priors then narrow the search space for our performance models, excluding
+          complexity classes that reflect noise rather than performance. Our approach
+          keeps the models much closer to theoretical expectations and significantly
+          improves their predictive power. Finally, it cuts experimental costs in
+          half by minimizing the number of repeated measurements.
+      - title: "Profile-guided Optimization for Cloud Services: Accelerating Serverless Cold Starts and Reducing Unnecessary Service-to-Service Communication"
+        author: Probir Roy
+        affiliation: University of Michigan-Dearborn
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          Cloud service performance is critically influenced by efficient resource
+          utilization and communication overhead. Cloud providers commonly optimize
+          resource usage at the infrastructure level; however, inefficiencies
+          introduced by application-level code often remain overlooked. Unlike
+          developers in the high-performance computing (HPC) community, cloud service
+          developers lack extensive experience in performance-oriented code
+          optimization, necessitating specialized tool support explicitly tailored
+          for optimizing cloud-native applications. This talk presents profile-guided
+          optimization techniques specifically designed for cloud environments,
+          addressing two key performance challenges: unnecessary inter-service
+          communication in microservice applications and library loading overhead
+          during serverless cold starts. First, we introduce MicroProf, a profiling
+          tool that precisely attributes unnecessary data transfers to specific
+          code-level interactions, thereby significantly enhancing the efficiency of
+          microservice applications. Second, we present SLIMSTART, a runtime
+          profiling solution that addresses serverless cold-start latency by
+          dynamically identifying and mitigating redundant library initializations.
+          Integrated seamlessly into existing CI/CD workflows, these scalable
+          profiling tools deliver substantial improvements in end-to-end performance
+          and resource utilization.
+      - title: Efficiently Representing CPU-GPU Performance
+        author: Jonathon Anderson
+        affiliation: Rice University
         length: 1800
         slides: 
-        abstract: 
+        abstract: |
+          Optimizing today's GPU-accelerated applications requires analyzing the
+          performance of both the GPU- and CPU-based parts of an application,
+          simultaneously. While many current performance data models efficiently
+          represent CPU performance, they often inefficiently represent GPU
+          performance. Conversely, many newer models designed for GPU performance
+          data struggle to correctly and effectively represent CPU performance.
+          HPCToolkit's Performance Atlas is an upcoming performance data model and
+          format designed to bridge the gap between these two modalities. Unlike
+          current performance formats, Atlas uses a novel graph-based representation
+          that models GPU and CPU performance data equally and efficiently. In this
+          talk, I will present the key design features that make Atlas similar to and
+          different from other performance data formats, highlighting its unique
+          suitability for analyzing GPU-accelerated applications.
 
   - title: Talks Session 4
     days: monday
     time: 15:30pm
     talks:
-      - title: 
-        author: 
-        affiliation: 
+      - title: "E4S: A platform for HPC-AI Tool Interoperability"
+        author: Sameer Shende
+        affiliation: Univ. of Oregon and Paratools
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          The Extreme-Scale Scientific Software Stack (E4S) [E4S.io] provides an
+          ecosystem for science. It features a curated Spack based collection of over
+          100 HPC-AI tools such as Dyninst API, HPCToolkit, Darshan, PAPI, and TAU.
+          This talk explores E4S as a platform for tool interoperability. Featuring
+          GPU vendor runtimes from NVIDIA, AMD, and Intel as well as MPI runtimes and
+          compilers (GCC, LLVM, and vendor compilers), E4S features a rich collection
+          of packages that are typically needed to build and maintain performance
+          evaluation tools. It provides a Codium based IDE and browser integration
+          for tracing tools such as Perfetto.dev. Based on a collection of around
+          1000 third party packages that are required to build the collection of over
+          100 top-level Spack packages and Python based AI tools, E4S provides an easy
+          way to build and maintain performance evaluation tools for HPC and AI. E4S
+          supports base and full-featured containers, on-premises builds on bare-metal
+          hardware, and commercial cloud platforms using a ParaTools Pro for E4S(TM)
+          image available in AWS, GCP, OCI, and Azure marketplaces. The talk will
+          describe the tool APIs and concerns for building a platform for tool
+          interoperability.
+      - title: What is Going on with Debugging Info? DWARF6 and Support for GPUs and Vectorized Code
+        author: Ben Woodard
+        affiliation: Red Hat
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          After being on hiatus for several years, the DWARF committee reconvened
+          under new management to begin working on DWARF6. The biggest new feature in
+          this forthcoming version of the DWARF standard is expected to be standardized
+          debug information for vectorized code and GPUs. All major GPU vendors are now
+          participating in this endeavor. While this is not fully accepted into the
+          draft standard yet and in some cases the changes it is still being edited and
+          even written, great strides forward have been made. This talk covers what to
+          expect in the forthcoming DWARF6 standard with a particular focus on the
+          facilities that are being added to support GPUs and vectorized code.
+      - title: Bridging the Gap between Binary and Source Based Package Management in Spack
+        author: John Gouwar
+        affiliation: Northeastern University
         length: 1800
         slides: 
-        abstract: 
+        abstract: |
+          Binary package managers allow for the fast installation of binary
+          artifacts, but limit configurability to ensure compatibility between
+          binaries due to rigid ABI requirements. Source package managers allow for
+          more flexibility in building software, since binaries are compiled on
+          demand, but compilation can take a considerable amount of time. Spack, a
+          widely deployed, HPC-focused package manager has an existing  mechanism for
+          mixing source and precompiled packages; however, because Spack does not
+          model ABI compatibility between packages, all transitive dependencies of a
+          binary package must have been built at the same time as that package to
+          maintain ABI compatibility. For example, installing an HPC code with a new
+          MPI implementation may result in a full rebuild. We present an extension to
+          Spack, which we call splicing, that models ABI compatibility in the package
+          ecosystem and allows seamless mixing of source and binary distribution of
+          packages. Splicing augments Spack’s packaging language and dependency
+          resolution engine to reuse compatible binaries but maintains the
+          flexibility of source builds. It incurs minimal installation-time overhead
+          and allows rapid installation from binaries, even for ABI-sensitive
+          dependencies like MPI that would otherwise require many rebuilds.
+          <p>
+          For Spack to effectively utilize automatic splicing, Spack package
+          developers need to accurately model their package's ABI, which can be
+          difficult and error-prone to do manually (especially when considering the
+          combinatorial configuration space of Spack packages). Our ongoing work
+          seeks to minimize the burden on package developers for developing correct
+          models of their package's ABI by leveraging the ABI analysis tool,
+          libabigail. We are currently developing semi-automated and fully automated
+          tools for modeling the ABI of compiled packages in order to better take
+          advantage of automatic splicing without sacrificing functional correctness.
+          The ultimate goal is to scale these automated analyses across most of the
+          Spack ecosystem while incurring minimal overhead for individual package
+          developers.
 
   - title: Talks Session 5
     days: tuesday
     time: 08:30am
     talks:
-      - title: 
-        author: 
-        affiliation: 
+      - title: Binary Instrumentation for the AMD GPU
+        author: Hsuan-Heng Wu and Ronak Chauhan
+        affiliation: University of Wisconsin-Madison
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: abs tbd
+      - title: Luthier, a Dynamic Binary Instrumentation Framework Targeting AMD GPUs
+        author: Matin Raayai-Ardakani, Norman Rubin, and David Kaeli
+        affiliation: Northeastern University
         length: 1800
         slides: 
-        abstract: 
-      - title: 
-        author: 
-        affiliation: 
+        abstract: |
+          Dynamic Binary instrumentation (DBI) is a widely used technique for
+          collecting detailed, fine-grained information from program execution
+          without requiring recompilation or access to the program’s source code.
+          DBI provides several benefits over static instrumentation, including full
+          code discovery and the ability to enable/disable profiling selectively
+          during runtime. Earlier efforts focused on CPU-based DBI, which included
+          ATOM, Pin and DynamoRio. More recently, we have seen the introduction of
+          NVBit and GTPin have extended DBI capabilities to NVIDIA and Intel GPUs,
+          respectively. Presently, there is no available DBI framework for AMD GPUs.
+          This is primarily due to the unique challenges posed by AMD’s hardware and
+          its ROCm runtime. In this presentation we will cover some of these
+          challenges, and present our approach to enabling DBI on AMD GPUs. In
+          addition, we will report on our efforts to develop user-facing APIs and
+          internal components for this new DBI framework.
+      - title: Efficient Instrumentation and Tracepoint Insertion for GPU Compute Kernels
+        author: Sébastien Darche
+        affiliation: Polytechnique Montreal
         length: 1800
         slides: 
-        abstract: 
+        abstract: |
+          Reducing instrumentation noise and overhead in software development tools is a
+          major factor in providing insightful performance reports for programmers. This is particularly
+          challenging when tracing highly parallel GPU compute kernels, which poses many challenges
+          for instrumentation, data movement, and trace analysis. Furthermore, while complex kernels
+          usually benefit the most from tracing tools, the instrumentation overhead often strongly
+          correlates with the kernel complexity. Thus, GPU compute kernel tracing is a prime candidate
+          for improvement.
+          <p>
+          We propose a method for efficient tracepoint placement in GPU compute kernels, by leveraging
+          properties derived from static analysis of the control flow graph (CFG) at compilation
+          time. This is enabled by GPUs relying on stack-based SIMT control flow, allowing for
+          postmortem computation of vector control flow data. Compared to current tracing methods,
+          our approach can reduce the number of instrumentation points, while guaranteeing the same
+          level of detail when processing the trace.
+          <p>
+          We evaluate the reference implementation of our method on a comprehensive scientific
+          computing benchmark, obtaining on average a reduction of 59% on the total number of inserted
+          tracepoints, thus reducing runtime overhead and total trace size, when tracing a program.
+          The reference implementation is freely available and integrated into a complete GPU tracing
+          tool, ready for use by programmers.
 
   - days: tuesday
     time: 10:30pm
