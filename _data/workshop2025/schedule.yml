@@ -85,7 +85,7 @@ sessions:
     time: 08:35am
     talks:
       - title: What's New in Dyninst
-        author: Dyninst Team — James Kupsch, Ronak Chauham, Hsuan-Heng Wu, Angus He
+        author: Dyninst Team — James Kupsch and Angus He
         affiliation: University of Wisconsin-Madison
         length: 1800
         slides: 
@@ -380,12 +380,30 @@ sessions:
     days: tuesday
     time: 08:30am
     talks:
-      - title: Binary Instrumentation for the AMD GPU
+      - title: Binary Analysis and Instrumentation in Dyninst  on SIMD/SIMT Code for AMD GPUs
         author: Hsuan-Heng Wu and Ronak Chauhan
         affiliation: University of Wisconsin-Madison
         length: 1800
         slides: 
-        abstract: abs tbd
+        abstract: |
+          Binary code analysis and instrumentation are key techniques for
+          understanding the underlying structure and semantics of a binary and
+          observing the execution of a binary program. In this talk, we present the
+          challenges on efficiently representing, analyzing, and instrumenting
+          SIMD/SIMT binaries, with a particular focus on AMD GPUs.
+          <p>
+          The first challenge is performance control flow analysis for GPU code, such
+          that the analysis can capture predicated control flow and represent it
+          using familiar control flow abstractions.  The second challenge is to
+          efficiently represent dataflow behavior of the code such that in-lane
+          operations are represented efficiently and cross-lane operations can
+          capture the fine-grained per-thread behavior of the code. The third
+          challenge is to be able to efficiently instrument these SIMD/SIMT binaries,
+          being able to capture wave-level and thread-level performance
+          characteristics
+          <p>
+          We then report our progress on porting Dyninst to support binary analysis
+          and instrumentation for AMD GPU binaries.
       - title: Luthier, a Dynamic Binary Instrumentation Framework Targeting AMD GPUs
         author: Matin Raayai-Ardakani, Norman Rubin, and David Kaeli
         affiliation: Northeastern University
