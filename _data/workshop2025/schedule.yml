@@ -88,7 +88,7 @@ sessions:
         author: Dyninst Team — James Kupsch and Angus He
         affiliation: University of Wisconsin-Madison
         length: 1800
-        slides: 
+        slides: Dyninst-STW-2025.pdf
         abstract: |
           Binary analysis and instrumentation is a key technology to support
           performance profiling, debugging, testing, software security, and auditing.
@@ -129,7 +129,7 @@ sessions:
         author: Terry Jones
         affiliation: Oak Ridge National Lab
         length: 1800
-        slides: 
+        slides: 2025-07-07 STEP at Scalable Tools ver6.pdf
         abstract: |
           The US DOE has recently funded a new project that considers this
           interesting question: as new machines become available, how can
@@ -146,7 +146,7 @@ sessions:
         author: Allen Malony
         affiliation: University of Oregon
         length: 1800
-        slides: 
+        slides: workshop-talk-malony.pdf
         abstract: |
           Sophisticated observability solutions have been developed in cloud
           computing environments to address the complexity of scaled-out
@@ -200,7 +200,7 @@ sessions:
         author: Laksono Adhianto and John Mellor-Crummey
         affiliation: Rice University
         length: 1800
-        slides: 
+        slides: 2025-HPCToolkit Updates.pdf
         abstract: |
           Over the last year, we have made significant changes to HPCToolkit to
           better support measurement, analysis and presentation of performance data
@@ -254,7 +254,7 @@ sessions:
         author: Probir Roy
         affiliation: University of Michigan-Dearborn
         length: 1800
-        slides: 
+        slides: Profile-guided Optimization for Cloud Services.pdf
         abstract: |
           Cloud service performance is critically influenced by efficient resource
           utilization and communication overhead. Cloud providers commonly optimize
@@ -280,7 +280,7 @@ sessions:
         author: Jonathon Anderson
         affiliation: Rice University
         length: 1800
-        slides: 
+        slides: STW'25 Talk.pdf
         abstract: |
           Optimizing today's GPU-accelerated applications requires analyzing the
           performance of both the GPU- and CPU-based parts of an application,
@@ -304,7 +304,7 @@ sessions:
         author: Sameer Shende
         affiliation: Univ. of Oregon and Paratools
         length: 1800
-        slides: 
+        slides: E4S_Scalable_Tools25.pdf
         abstract: |
           The Extreme-Scale Scientific Software Stack (E4S) [E4S.io] provides an
           ecosystem for science. It features a curated Spack based collection of over
