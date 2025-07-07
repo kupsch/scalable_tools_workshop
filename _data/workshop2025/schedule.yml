@@ -20,18 +20,18 @@ sessions:
       - wednesday
       - thursday
     class: sbreak
-  - title: "Reception (Mountain Deck)"
+  - title: "Reception (Cedar Deck)"
     time: 17:30pm
     days:
       - sunday
       - tuesday
     class: sbreak
-  - title: "Reception (Mountain Deck)"
+  - title: "Reception (Cedar Deck)"
     time: 18:00pm
     days:
       - monday
     class: sbreak
-  - title: "Reception (Mountain Deck)"
+  - title: "Reception (Cedar Deck)"
     time: 18:30pm
     days:
       - wednesday
