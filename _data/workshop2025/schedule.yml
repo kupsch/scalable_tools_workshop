@@ -218,7 +218,7 @@ sessions:
         author: Yumeng Liu
         affiliation: Rice University
         length: 1800
-        slides: 
+        slides: liu-stw25.pdf
         abstract: |
           In this talk, we present a work-in-progress exploration of how GPU
           in-kernel instrumentation can help improve observability and expose
@@ -428,7 +428,7 @@ sessions:
         author: Sébastien Darche
         affiliation: Polytechnique Montreal
         length: 1800
-        slides: 
+        slides: scalable-tools-presentation-darche.pdf
         abstract: |
           Reducing instrumentation noise and overhead in software development tools is a
           major factor in providing insightful performance reports for programmers. This is particularly
