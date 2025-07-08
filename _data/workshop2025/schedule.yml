@@ -408,7 +408,7 @@ sessions:
         author: Matin Raayai-Ardakani, Norman Rubin, and David Kaeli
         affiliation: Northeastern University
         length: 1800
-        slides: 
+        slides: Luthier HPC Tools Workshop 2025.pdf
         abstract: |
           Dynamic Binary instrumentation (DBI) is a widely used technique for
           collecting detailed, fine-grained information from program execution
