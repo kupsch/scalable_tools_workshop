@@ -234,7 +234,7 @@ sessions:
         author: Gustavo Morais
         affiliation: TU Darmstadt
         length: 1800
-        slides: 
+        slides: ScalableToolsWorkshop_Morais.pdf
         abstract: |
           When scaling parallel codes to larger machines, performance models help
           identify potential bottlenecks. Since analytically designing these
@@ -327,7 +327,7 @@ sessions:
         author: Ben Woodard
         affiliation: Red Hat
         length: 1800
-        slides: 
+        slides: What's new in DWARF.pdf
         abstract: |
           After being on hiatus for several years, the DWARF committee reconvened
           under new management to begin working on DWARF6. The biggest new feature in
@@ -384,7 +384,7 @@ sessions:
         author: Hsuan-Heng Wu and Ronak Chauhan
         affiliation: University of Wisconsin-Madison
         length: 1800
-        slides: 
+        slides: STW-2025-Dyninst-AMDGPU.pdf
         abstract: |
           Binary code analysis and instrumentation are key techniques for
           understanding the underlying structure and semantics of a binary and
