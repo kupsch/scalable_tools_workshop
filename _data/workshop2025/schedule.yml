@@ -176,7 +176,7 @@ sessions:
         author: Jonathan Madsen
         affiliation: AMD
         length: 1800
-        slides: 
+        slides: ROCm_Performance_Analysis_SDK_and_Tooling_Ecosystem_2025_07_07.pdf
         abstract: |
           Understanding and optimizing the performance of applications on AMD GPUs is
           critical for achieving peak efficiency in high-performance computing and AI
