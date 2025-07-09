@@ -14,3 +14,7 @@ and will then break up into working groups to tackle real technical problems
 for the second half of the workshop.
 
 On Sunday evening, the welcome reception starts at 5:30pm and dinner at 6:30pm.
+
+<p>
+<img src="assets/images/bear1.jpg" style="width:48%; height:auto; max-width:48%; border:solid">
+<img src="assets/images/bear2.jpg" style="width:48%; height:auto; max-width:48%; border:solid">
