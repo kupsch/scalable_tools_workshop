@@ -75,6 +75,11 @@ sessions:
       - tuesday
     class: sbreak
 
+  - days: wednesday
+    time: 13:30pm
+    title: Informal Small Group Discussions
+    talks:
+
   - title: Welcome and Introduction
     days: monday
     time: 08:30am
@@ -534,11 +539,6 @@ sessions:
         length: 0
         slides: 
         abstract: 
-
-  - days: wednesday
-    time: 13:30pm
-    title: Informal Small Group Discussions
-    talks:
 
   - title: Working Groups Session 5
     days: thursday
