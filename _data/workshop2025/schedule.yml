@@ -80,6 +80,15 @@ sessions:
     title: Informal Small Group Discussions
     talks:
 
+  - days: thursday
+    time: 10:30am
+    title: Working Group Outbriefs (Mountain Room)
+
+  - days: thursday
+    time: 1:30pm
+    title: Departure
+    class: sbreak
+
   - title: Welcome and Introduction
     days: monday
     time: 08:30am
